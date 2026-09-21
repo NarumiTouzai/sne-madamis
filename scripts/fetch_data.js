@@ -55,6 +55,10 @@ async function scrapeSneEc() {
       if (!priceMatch) continue;
       const price = Number(priceMatch[1].replace(/,/g, ""));
 
+      // itemimg内の最初の<img>がサムネイル(SNE-EC上の画像を直接参照するだけで、こちらにはコピーしない)
+      const imgMatch = chunk.match(/<img[^>]*\ssrc="([^"]+)"/);
+      const imageUrl = imgMatch ? imgMatch[1] : null;
+
       const urlMatch = officialUrl.match(/\/(\d{4})\/(\d{2})\/(\d{2})\/([a-z0-9]+)-(\d+)\//);
       if (!urlMatch) continue;
       const [, y, mo, d, slugBase, slugSuffix] = urlMatch;
@@ -68,6 +72,7 @@ async function scrapeSneEc() {
         minPlayers: Math.min(...players),
         maxPlayers: Math.max(...players),
         officialUrl,
+        imageUrl,
       });
     }
 
@@ -95,6 +100,7 @@ async function scrapeSneEc() {
       playersLabel: playersLabel(r.minPlayers, r.maxPlayers),
       officialUrl: r.officialUrl,
       amazonUrl: `https://www.amazon.co.jp/s?k=${encodeURIComponent(r.title)}`,
+      imageUrl: r.imageUrl,
     });
   }
   return items;
