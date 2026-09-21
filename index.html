@@ -163,14 +163,22 @@
   }
   .card.played{ border-color:var(--accent-soft); }
   .card-thumb{
-    width:100%;
+    width:56px;
+    height:74px;
+    flex:none;
     aspect-ratio:3/4;
     object-fit:contain;
-    border-radius:calc(var(--radius) - 6px);
+    border-radius:8px;
     background:var(--chip-bg);
-    margin:-4px 0 0;
   }
   .card-top{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+  }
+  .card-top-text{
+    flex:1;
+    min-width:0;
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
@@ -414,6 +422,9 @@ function render(){
     const card = document.createElement("div");
     card.className = "card" + (entry.played ? " played" : "");
 
+    const top = document.createElement("div");
+    top.className = "card-top";
+
     if(item.imageUrl){
       const thumb = document.createElement("img");
       thumb.className = "card-thumb";
@@ -421,11 +432,11 @@ function render(){
       thumb.alt = item.title;
       thumb.loading = "lazy";
       thumb.addEventListener("error", ()=>{ thumb.remove(); });
-      card.appendChild(thumb);
+      top.appendChild(thumb);
     }
 
-    const top = document.createElement("div");
-    top.className = "card-top";
+    const topText = document.createElement("div");
+    topText.className = "card-top-text";
     const title = document.createElement("h2");
     title.className = "title";
     title.textContent = item.title;
@@ -435,8 +446,9 @@ function render(){
     pBadge.className = "badge players";
     pBadge.textContent = item.playersLabel;
     badges.appendChild(pBadge);
-    top.appendChild(title);
-    top.appendChild(badges);
+    topText.appendChild(title);
+    topText.appendChild(badges);
+    top.appendChild(topText);
     card.appendChild(top);
 
     const meta = document.createElement("div");
