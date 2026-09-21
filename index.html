@@ -204,7 +204,28 @@
     gap:14px;
     flex-wrap:wrap;
   }
-  .mdms-score{ color:var(--gold); font-weight:600; }
+  .mdms-rating{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  .mdms-stars{
+    position:relative;
+    display:inline-block;
+    font-size:15px;
+    line-height:1;
+    letter-spacing:2px;
+  }
+  .mdms-stars-bg{ color:var(--line); }
+  .mdms-stars-fg{
+    position:absolute;
+    top:0; left:0;
+    overflow:hidden;
+    white-space:nowrap;
+    color:var(--gold);
+  }
   .links{
     display:flex;
     gap:8px;
@@ -229,16 +250,6 @@
     padding-top:8px;
     border-top:1px dashed var(--line);
   }
-  .stars{
-    display:flex;
-    gap:2px;
-    cursor:pointer;
-  }
-  .star{
-    font-size:17px;
-    color:var(--line);
-  }
-  .star.filled{ color:var(--gold); }
   .played-toggle{
     display:flex;
     align-items:center;
@@ -285,7 +296,6 @@
         <option value="date-asc">発売日が古い順</option>
         <option value="price-asc">価格が安い順</option>
         <option value="price-desc">価格が高い順</option>
-        <option value="rating-desc">自分の評価が高い順</option>
         <option value="mdms-desc">マダミス.jp評価が高い順</option>
         <option value="title-asc">タイトル順</option>
       </select>
@@ -304,7 +314,7 @@
   出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>（2026-09-21取得）。
   価格はSNE-EC表示の税込定価です。Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。
   「マダミス.jp評価」は<a href="https://mdms.jp/" target="_blank" rel="noopener">マダミス.jp</a>掲載の評価点(5点満点)・評価件数です（2026-09-21取得）。セット商品や同サイト未掲載の作品は評価が表示されません。
-  ★評価と「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
+  「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
 </footer>
 
 <script>
@@ -318,10 +328,10 @@ function loadState(){
 function saveState(state){
   try{ localStorage.setItem(STATE_KEY, JSON.stringify(state)); }catch(e){}
 }
-let userState = loadState(); // { [code]: { rating: 0-5, played: bool } }
+let userState = loadState(); // { [code]: { played: bool } }
 
 function getEntry(code){
-  if(!userState[code]) userState[code] = { rating:0, played:false };
+  if(!userState[code]) userState[code] = { played:false };
   return userState[code];
 }
 
@@ -380,7 +390,6 @@ function render(){
       case "date-asc": return a.releaseDate.localeCompare(b.releaseDate);
       case "price-asc": return a.price - b.price;
       case "price-desc": return b.price - a.price;
-      case "rating-desc": return getEntry(b.code).rating - getEntry(a.code).rating;
       case "mdms-desc": return (b.mdmsScore ?? -1) - (a.mdmsScore ?? -1);
       case "title-asc": return a.title.localeCompare(b.title, "ja");
       default: return 0;
@@ -423,10 +432,17 @@ function render(){
     card.appendChild(meta);
 
     if(item.mdmsScore != null){
-      const mdms = document.createElement("div");
-      mdms.className = "meta";
-      mdms.innerHTML = `<span class="mdms-score">マダミス.jp評価 ★${item.mdmsScore.toFixed(1)}（${item.mdmsReviewCount}件）</span>`;
-      card.appendChild(mdms);
+      const mdmsRow = document.createElement("div");
+      mdmsRow.className = "mdms-rating";
+      const pct = Math.max(0, Math.min(100, (item.mdmsScore / 5) * 100));
+      mdmsRow.innerHTML = `
+        <span class="mdms-stars" aria-hidden="true">
+          <span class="mdms-stars-bg">★★★★★</span>
+          <span class="mdms-stars-fg" style="width:${pct}%">★★★★★</span>
+        </span>
+        <span class="mdms-label">${item.mdmsScore.toFixed(1)}（${item.mdmsReviewCount}件）</span>
+      `;
+      card.appendChild(mdmsRow);
     }
 
     const links = document.createElement("div");
@@ -458,21 +474,6 @@ function render(){
 
     const bottom = document.createElement("div");
     bottom.className = "card-bottom";
-
-    const starsWrap = document.createElement("div");
-    starsWrap.className = "stars";
-    for(let i=1;i<=5;i++){
-      const s = document.createElement("span");
-      s.className = "star" + (i <= entry.rating ? " filled" : "");
-      s.textContent = "★";
-      s.addEventListener("click", ()=>{
-        entry.rating = (entry.rating === i) ? 0 : i; // click same star again to clear
-        saveState(userState);
-        render();
-      });
-      starsWrap.appendChild(s);
-    }
-    bottom.appendChild(starsWrap);
 
     const playedLabel = document.createElement("label");
     playedLabel.className = "played-toggle";
