@@ -11,13 +11,7 @@ const { chromium } = require('playwright');
   await page.waitForTimeout(300);
 
   const defaultCount = await page.locator('#countBadge').textContent();
-  console.log('default filter (6人ちょうど) count badge:', defaultCount);
-
-  // switch to 6〜7人
-  await page.click('button[data-players="6-7"]');
-  await page.waitForTimeout(150);
-  const sixSevenCount = await page.locator('#countBadge').textContent();
-  console.log('6〜7人 count badge:', sixSevenCount);
+  console.log('default filter (6人で遊べる) count badge:', defaultCount);
 
   // switch to all
   await page.click('button[data-players="all"]');

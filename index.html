@@ -301,8 +301,7 @@
     <div class="row">
       <span class="label">プレイ人数</span>
       <button class="chip" data-players="all">すべて</button>
-      <button class="chip active" data-players="6">6人ちょうど</button>
-      <button class="chip" data-players="6-7">6〜7人</button>
+      <button class="chip active" data-players="6">6人で遊べる</button>
       <button class="chip" data-players="any">その他の人数</button>
     </div>
     <div class="row">
@@ -374,11 +373,11 @@ hidePlayed.addEventListener("change", render);
 
 function matchesPlayers(item){
   const {minPlayers:mn, maxPlayers:mx} = item;
+  const supports6 = mn <= 6 && 6 <= mx; // 6人ぴったりで遊べるか(最少人数が7以上の作品は不可)
   switch(currentPlayersFilter){
     case "all": return true;
-    case "6": return mn <= 6 && 6 <= mx;
-    case "6-7": return mx >= 6 && mn <= 7; // overlaps [6,7]
-    case "any": return !(mn <= 7 && mx >= 6); // no overlap with 6-7
+    case "6": return supports6;
+    case "any": return !supports6;
     default: return true;
   }
 }
