@@ -250,6 +250,12 @@
     color:var(--ink-soft);
     font-size:12px;
   }
+  .mdms-rating-missing{
+    font-size:12px;
+    color:var(--ink-soft);
+    opacity:0.7;
+    font-style:italic;
+  }
   .links{
     display:flex;
     gap:8px;
@@ -467,6 +473,11 @@ function render(){
         </span>
         <span class="mdms-label"><strong class="mdms-score-num">${item.mdmsScore.toFixed(1)}</strong><span class="mdms-count">（${item.mdmsReviewCount}件の評価）</span></span>
       `;
+      card.appendChild(mdmsRow);
+    } else {
+      const mdmsRow = document.createElement("div");
+      mdmsRow.className = "mdms-rating mdms-rating-missing";
+      mdmsRow.textContent = "マダミス.jp評価: 未登録";
       card.appendChild(mdmsRow);
     }
 
