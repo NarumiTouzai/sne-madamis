@@ -17,7 +17,6 @@
     --chip-bg:#f1e6d6;
     --chip-active-bg:#8b2f2f;
     --chip-active-ink:#fff;
-    --soldout:#9a9188;
     --gold:#c9973a;
     --shadow: 0 2px 10px rgba(60,40,20,0.08);
     --radius:14px;
@@ -34,7 +33,6 @@
       --chip-bg:#2c231c;
       --chip-active-bg:#e0836a;
       --chip-active-ink:#201510;
-      --soldout:#8a8078;
       --gold:#e0b95a;
       --shadow: 0 2px 14px rgba(0,0,0,0.4);
     }
@@ -50,7 +48,6 @@
     --chip-bg:#2c231c;
     --chip-active-bg:#e0836a;
     --chip-active-ink:#201510;
-    --soldout:#8a8078;
     --gold:#e0b95a;
     --shadow: 0 2px 14px rgba(0,0,0,0.4);
   }
@@ -164,7 +161,6 @@
     gap:8px;
     position:relative;
   }
-  .card.soldout{ opacity:0.6; }
   .card.played{ border-color:var(--accent-soft); }
   .card-top{
     display:flex;
@@ -192,10 +188,6 @@
   }
   .badge.players{
     background:var(--accent);
-    color:#fff;
-  }
-  .badge.soldout{
-    background:var(--soldout);
     color:#fff;
   }
   .meta{
@@ -325,9 +317,9 @@
 </div>
 
 <footer>
-  出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>（2026-09-21取得）。
-  価格はSNE-EC表示の税込定価です。Amazon等の実売価格・在庫は自動取得できなかったため、検索リンクのみ掲載しています。「公式売り切れ」バッジはSNE-ECの在庫のみを表し、Amazon等での購入可否は含みません。
-  「マダミス.jp評価」は<a href="https://mdms.jp/" target="_blank" rel="noopener">マダミス.jp</a>掲載の評価点(5点満点)・評価件数です（2026-09-21取得）。セット商品や同サイト未掲載の作品は評価が表示されません。
+  出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>。データ最終取得日: <span id="fetchedAt">-</span>。
+  価格はSNE-EC表示の税込定価です。在庫状況・Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。
+  「マダミス.jp評価」は<a href="https://mdms.jp/" target="_blank" rel="noopener">マダミス.jp</a>掲載の評価点(5点満点)・評価件数です。セット商品や同サイト未掲載の作品は評価が表示されません。
   「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
 </footer>
 
@@ -412,7 +404,7 @@ function render(){
   items.forEach(item=>{
     const entry = getEntry(item.code);
     const card = document.createElement("div");
-    card.className = "card" + (item.soldOut ? " soldout" : "") + (entry.played ? " played" : "");
+    card.className = "card" + (entry.played ? " played" : "");
 
     const top = document.createElement("div");
     top.className = "card-top";
@@ -425,12 +417,6 @@ function render(){
     pBadge.className = "badge players";
     pBadge.textContent = item.playersLabel;
     badges.appendChild(pBadge);
-    if(item.soldOut){
-      const sBadge = document.createElement("span");
-      sBadge.className = "badge soldout";
-      sBadge.textContent = "公式売り切れ";
-      badges.appendChild(sBadge);
-    }
     top.appendChild(title);
     top.appendChild(badges);
     card.appendChild(top);
@@ -507,6 +493,8 @@ fetch("data/madamis.json")
   .then(r=>r.json())
   .then(data=>{
     ALL_ITEMS = data.items;
+    const fetchedAtEl = document.getElementById("fetchedAt");
+    if(fetchedAtEl && data.fetchedAt) fetchedAtEl.textContent = data.fetchedAt;
     render();
   })
   .catch(err=>{
