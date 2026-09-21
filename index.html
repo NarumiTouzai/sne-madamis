@@ -139,10 +139,11 @@
     color:var(--ink-soft);
     cursor:pointer;
   }
-  .count-badge{
-    font-size:12px;
-    color:var(--ink-soft);
-    margin-left:auto;
+  .results-count{
+    font-size:14px;
+    font-weight:600;
+    color:var(--ink);
+    margin:0 2px 10px;
   }
   .cards{
     display:grid;
@@ -316,17 +317,17 @@
       </select>
       <input type="text" id="searchBox" placeholder="タイトルで検索">
       <label class="toggle"><input type="checkbox" id="hidePlayed"> プレイ済みを隠す</label>
-      <span class="count-badge" id="countBadge"></span>
     </div>
   </div>
 
+  <div class="results-count" id="countBadge"></div>
   <div class="cards" id="cards"></div>
   <div class="empty" id="emptyMsg" style="display:none;">条件に合う作品が見つかりませんでした。</div>
 </div>
 
 <footer>
   出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>（2026-09-21取得）。
-  価格はSNE-EC表示の税込定価です。Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。
+  価格はSNE-EC表示の税込定価です。Amazon等の実売価格・在庫は自動取得できなかったため、検索リンクのみ掲載しています。「公式売り切れ」バッジはSNE-ECの在庫のみを表し、Amazon等での購入可否は含みません。
   「マダミス.jp評価」は<a href="https://mdms.jp/" target="_blank" rel="noopener">マダミス.jp</a>掲載の評価点(5点満点)・評価件数です（2026-09-21取得）。セット商品や同サイト未掲載の作品は評価が表示されません。
   「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
 </footer>
@@ -406,7 +407,7 @@ function render(){
   });
 
   cardsEl.innerHTML = "";
-  countBadge.textContent = items.length + " 件";
+  countBadge.textContent = items.length + "件の作品";
   emptyEl.style.display = items.length ? "none" : "block";
 
   items.forEach(item=>{
@@ -428,7 +429,7 @@ function render(){
     if(item.soldOut){
       const sBadge = document.createElement("span");
       sBadge.className = "badge soldout";
-      sBadge.textContent = "売り切れ";
+      sBadge.textContent = "公式売り切れ";
       badges.appendChild(sBadge);
     }
     top.appendChild(title);
