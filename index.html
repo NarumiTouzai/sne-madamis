@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>グループSNE マダミス一覧</title>
+<meta name="description" content="グループSNEのマーダーミステリー全作品一覧。プレイ人数・価格・評価で絞り込み、次に遊ぶ作品を選べます。">
+<style>
+  :root{
+    --bg:#faf7f2;
+    --card-bg:#ffffff;
+    --ink:#241a13;
+    --ink-soft:#6b5c4e;
+    --accent:#8b2f2f;
+    --accent-soft:#c86b4a;
+    --line:#e8ddce;
+    --chip-bg:#f1e6d6;
+    --chip-active-bg:#8b2f2f;
+    --chip-active-ink:#fff;
+    --soldout:#9a9188;
+    --gold:#c9973a;
+    --shadow: 0 2px 10px rgba(60,40,20,0.08);
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#181310;
+      --card-bg:#231c17;
+      --ink:#f1e6d6;
+      --ink-soft:#b8a894;
+      --accent:#e0836a;
+      --accent-soft:#e0836a;
+      --line:#3a2f26;
+      --chip-bg:#2c231c;
+      --chip-active-bg:#e0836a;
+      --chip-active-ink:#201510;
+      --soldout:#8a8078;
+      --gold:#e0b95a;
+      --shadow: 0 2px 14px rgba(0,0,0,0.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#181310;
+    --card-bg:#231c17;
+    --ink:#f1e6d6;
+    --ink-soft:#b8a894;
+    --accent:#e0836a;
+    --accent-soft:#e0836a;
+    --line:#3a2f26;
+    --chip-bg:#2c231c;
+    --chip-active-bg:#e0836a;
+    --chip-active-ink:#201510;
+    --soldout:#8a8078;
+    --gold:#e0b95a;
+    --shadow: 0 2px 14px rgba(0,0,0,0.4);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Hiragino Sans","Yu Gothic",system-ui,-apple-system,sans-serif;
+    line-height:1.6;
+    padding-bottom:60px;
+  }
+  header{
+    padding:28px 16px 18px;
+    max-width:900px;
+    margin:0 auto;
+  }
+  h1{
+    font-size:22px;
+    margin:0 0 6px;
+    letter-spacing:0.02em;
+  }
+  header p{
+    margin:0;
+    color:var(--ink-soft);
+    font-size:13px;
+  }
+  .wrap{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 16px;
+  }
+  .panel{
+    background:var(--card-bg);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:16px;
+    box-shadow:var(--shadow);
+    margin-bottom:18px;
+  }
+  .row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+  }
+  .row + .row{ margin-top:12px; }
+  .label{
+    font-size:12px;
+    color:var(--ink-soft);
+    min-width:64px;
+    font-weight:600;
+  }
+  .chip{
+    border:1px solid var(--line);
+    background:var(--chip-bg);
+    color:var(--ink);
+    border-radius:999px;
+    padding:7px 14px;
+    font-size:13px;
+    cursor:pointer;
+    user-select:none;
+    transition:background .15s, color .15s, border-color .15s;
+    white-space:nowrap;
+  }
+  .chip.active{
+    background:var(--chip-active-bg);
+    color:var(--chip-active-ink);
+    border-color:var(--chip-active-bg);
+  }
+  input[type="text"], select{
+    border:1px solid var(--line);
+    background:var(--bg);
+    color:var(--ink);
+    border-radius:10px;
+    padding:8px 12px;
+    font-size:14px;
+    font-family:inherit;
+  }
+  input[type="text"]{ flex:1; min-width:140px; }
+  .toggle{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:13px;
+    color:var(--ink-soft);
+    cursor:pointer;
+  }
+  .count-badge{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-left:auto;
+  }
+  .cards{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+  @media (min-width:640px){
+    .cards{ grid-template-columns:1fr 1fr; }
+  }
+  .card{
+    background:var(--card-bg);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:16px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    position:relative;
+  }
+  .card.soldout{ opacity:0.6; }
+  .card.played{ border-color:var(--accent-soft); }
+  .card-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:8px;
+  }
+  .title{
+    font-size:16px;
+    font-weight:700;
+    margin:0;
+  }
+  .badges{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+  }
+  .badge{
+    font-size:11px;
+    padding:3px 9px;
+    border-radius:999px;
+    background:var(--chip-bg);
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+  .badge.players{
+    background:var(--accent);
+    color:#fff;
+  }
+  .badge.soldout{
+    background:var(--soldout);
+    color:#fff;
+  }
+  .meta{
+    font-size:13px;
+    color:var(--ink-soft);
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .links{
+    display:flex;
+    gap:8px;
+    margin-top:4px;
+    flex-wrap:wrap;
+  }
+  .link-btn{
+    font-size:12px;
+    text-decoration:none;
+    border:1px solid var(--line);
+    color:var(--ink);
+    padding:6px 12px;
+    border-radius:8px;
+    transition:border-color .15s;
+  }
+  .link-btn:hover{ border-color:var(--accent); }
+  .card-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:auto;
+    padding-top:8px;
+    border-top:1px dashed var(--line);
+  }
+  .stars{
+    display:flex;
+    gap:2px;
+    cursor:pointer;
+  }
+  .star{
+    font-size:17px;
+    color:var(--line);
+  }
+  .star.filled{ color:var(--gold); }
+  .played-toggle{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:12px;
+    color:var(--ink-soft);
+    cursor:pointer;
+  }
+  .empty{
+    text-align:center;
+    color:var(--ink-soft);
+    padding:40px 0;
+    font-size:14px;
+  }
+  footer{
+    max-width:900px;
+    margin:24px auto 0;
+    padding:0 16px;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+  footer a{ color:var(--ink-soft); }
+</style>
+</head>
+<body>
+<header>
+  <h1>グループSNE マダミス一覧</h1>
+  <p>公式ショップ「SNE-EC」掲載のグループSNEマーダーミステリー全作品から、人数・評価で絞り込めます。</p>
+</header>
+
+<div class="wrap">
+  <div class="panel">
+    <div class="row">
+      <span class="label">プレイ人数</span>
+      <button class="chip" data-players="all">すべて</button>
+      <button class="chip active" data-players="6">6人ちょうど</button>
+      <button class="chip" data-players="6-7">6〜7人</button>
+      <button class="chip" data-players="any">その他の人数</button>
+    </div>
+    <div class="row">
+      <span class="label">並び替え</span>
+      <select id="sortSelect">
+        <option value="date-desc">発売日が新しい順</option>
+        <option value="date-asc">発売日が古い順</option>
+        <option value="price-asc">価格が安い順</option>
+        <option value="price-desc">価格が高い順</option>
+        <option value="rating-desc">自分の評価が高い順</option>
+        <option value="title-asc">タイトル順</option>
+      </select>
+      <input type="text" id="searchBox" placeholder="タイトルで検索">
+      <label class="toggle"><input type="checkbox" id="hideSoldOut" checked> 売り切れを隠す</label>
+      <label class="toggle"><input type="checkbox" id="hidePlayed"> プレイ済みを隠す</label>
+      <span class="count-badge" id="countBadge"></span>
+    </div>
+  </div>
+
+  <div class="cards" id="cards"></div>
+  <div class="empty" id="emptyMsg" style="display:none;">条件に合う作品が見つかりませんでした。</div>
+</div>
+
+<footer>
+  出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>（2026-09-21取得）。
+  価格はSNE-EC表示の税込定価です。Amazon等の実売価格・レビューは自動取得できなかったため、検索リンクのみ掲載しています。
+  ★評価と「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
+</footer>
+
+<script>
+const STATE_KEY = "sne-madamis-state-v1";
+
+function loadState(){
+  try{
+    return JSON.parse(localStorage.getItem(STATE_KEY)) || {};
+  }catch(e){ return {}; }
+}
+function saveState(state){
+  try{ localStorage.setItem(STATE_KEY, JSON.stringify(state)); }catch(e){}
+}
+let userState = loadState(); // { [code]: { rating: 0-5, played: bool } }
+
+function getEntry(code){
+  if(!userState[code]) userState[code] = { rating:0, played:false };
+  return userState[code];
+}
+
+let ALL_ITEMS = [];
+let currentPlayersFilter = "6";
+
+const cardsEl = document.getElementById("cards");
+const emptyEl = document.getElementById("emptyMsg");
+const countBadge = document.getElementById("countBadge");
+const searchBox = document.getElementById("searchBox");
+const sortSelect = document.getElementById("sortSelect");
+const hideSoldOut = document.getElementById("hideSoldOut");
+const hidePlayed = document.getElementById("hidePlayed");
+
+document.querySelectorAll(".chip[data-players]").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".chip[data-players]").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    currentPlayersFilter = btn.dataset.players;
+    render();
+  });
+});
+searchBox.addEventListener("input", render);
+sortSelect.addEventListener("change", render);
+hideSoldOut.addEventListener("change", render);
+hidePlayed.addEventListener("change", render);
+
+function matchesPlayers(item){
+  const {minPlayers:mn, maxPlayers:mx} = item;
+  switch(currentPlayersFilter){
+    case "all": return true;
+    case "6": return mn <= 6 && 6 <= mx;
+    case "6-7": return mx >= 6 && mn <= 7; // overlaps [6,7]
+    case "any": return !(mn <= 7 && mx >= 6); // no overlap with 6-7
+    default: return true;
+  }
+}
+
+function render(){
+  const q = searchBox.value.trim().toLowerCase();
+  let items = ALL_ITEMS.filter(matchesPlayers);
+  if(q){
+    items = items.filter(i => i.title.toLowerCase().includes(q));
+  }
+  if(hideSoldOut.checked){
+    items = items.filter(i => !i.soldOut);
+  }
+  if(hidePlayed.checked){
+    items = items.filter(i => !getEntry(i.code).played);
+  }
+
+  const sortMode = sortSelect.value;
+  items = items.slice().sort((a,b)=>{
+    switch(sortMode){
+      case "date-desc": return b.releaseDate.localeCompare(a.releaseDate);
+      case "date-asc": return a.releaseDate.localeCompare(b.releaseDate);
+      case "price-asc": return a.price - b.price;
+      case "price-desc": return b.price - a.price;
+      case "rating-desc": return getEntry(b.code).rating - getEntry(a.code).rating;
+      case "title-asc": return a.title.localeCompare(b.title, "ja");
+      default: return 0;
+    }
+  });
+
+  cardsEl.innerHTML = "";
+  countBadge.textContent = items.length + " 件";
+  emptyEl.style.display = items.length ? "none" : "block";
+
+  items.forEach(item=>{
+    const entry = getEntry(item.code);
+    const card = document.createElement("div");
+    card.className = "card" + (item.soldOut ? " soldout" : "") + (entry.played ? " played" : "");
+
+    const top = document.createElement("div");
+    top.className = "card-top";
+    const title = document.createElement("h2");
+    title.className = "title";
+    title.textContent = item.title;
+    const badges = document.createElement("div");
+    badges.className = "badges";
+    const pBadge = document.createElement("span");
+    pBadge.className = "badge players";
+    pBadge.textContent = item.playersLabel;
+    badges.appendChild(pBadge);
+    if(item.soldOut){
+      const sBadge = document.createElement("span");
+      sBadge.className = "badge soldout";
+      sBadge.textContent = "売り切れ";
+      badges.appendChild(sBadge);
+    }
+    top.appendChild(title);
+    top.appendChild(badges);
+    card.appendChild(top);
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.innerHTML = `<span>¥${item.price.toLocaleString()}（税込・公式）</span><span>発売: ${item.releaseDate}</span>`;
+    card.appendChild(meta);
+
+    const links = document.createElement("div");
+    links.className = "links";
+    const officialLink = document.createElement("a");
+    officialLink.className = "link-btn";
+    officialLink.href = item.officialUrl;
+    officialLink.target = "_blank";
+    officialLink.rel = "noopener";
+    officialLink.textContent = "公式ショップで見る";
+    const amazonLink = document.createElement("a");
+    amazonLink.className = "link-btn";
+    amazonLink.href = item.amazonUrl;
+    amazonLink.target = "_blank";
+    amazonLink.rel = "noopener";
+    amazonLink.textContent = "Amazonで検索";
+    links.appendChild(officialLink);
+    links.appendChild(amazonLink);
+    card.appendChild(links);
+
+    const bottom = document.createElement("div");
+    bottom.className = "card-bottom";
+
+    const starsWrap = document.createElement("div");
+    starsWrap.className = "stars";
+    for(let i=1;i<=5;i++){
+      const s = document.createElement("span");
+      s.className = "star" + (i <= entry.rating ? " filled" : "");
+      s.textContent = "★";
+      s.addEventListener("click", ()=>{
+        entry.rating = (entry.rating === i) ? 0 : i; // click same star again to clear
+        saveState(userState);
+        render();
+      });
+      starsWrap.appendChild(s);
+    }
+    bottom.appendChild(starsWrap);
+
+    const playedLabel = document.createElement("label");
+    playedLabel.className = "played-toggle";
+    const playedCheckbox = document.createElement("input");
+    playedCheckbox.type = "checkbox";
+    playedCheckbox.checked = entry.played;
+    playedCheckbox.addEventListener("change", ()=>{
+      entry.played = playedCheckbox.checked;
+      saveState(userState);
+      render();
+    });
+    playedLabel.appendChild(playedCheckbox);
+    playedLabel.appendChild(document.createTextNode("プレイ済み"));
+    bottom.appendChild(playedLabel);
+
+    card.appendChild(bottom);
+    cardsEl.appendChild(card);
+  });
+}
+
+fetch("data/madamis.json")
+  .then(r=>r.json())
+  .then(data=>{
+    ALL_ITEMS = data.items;
+    render();
+  })
+  .catch(err=>{
+    cardsEl.innerHTML = "";
+    emptyEl.style.display = "block";
+    emptyEl.textContent = "データの読み込みに失敗しました。data/madamis.json を確認してください。";
+    console.error(err);
+  });
+</script>
+</body>
+</html>
