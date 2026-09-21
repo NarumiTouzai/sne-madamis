@@ -208,6 +208,7 @@
     display:flex;
     align-items:center;
     gap:8px;
+    flex-wrap:wrap;
     font-size:13px;
     color:var(--ink-soft);
   }
@@ -225,6 +226,20 @@
     overflow:hidden;
     white-space:nowrap;
     color:var(--gold);
+  }
+  .mdms-label{
+    display:inline-flex;
+    align-items:baseline;
+    gap:4px;
+    white-space:nowrap;
+  }
+  .mdms-score-num{
+    color:var(--ink);
+    font-size:14px;
+  }
+  .mdms-count{
+    color:var(--ink-soft);
+    font-size:12px;
   }
   .links{
     display:flex;
@@ -300,7 +315,6 @@
         <option value="title-asc">タイトル順</option>
       </select>
       <input type="text" id="searchBox" placeholder="タイトルで検索">
-      <label class="toggle"><input type="checkbox" id="hideSoldOut" checked> 売り切れを隠す</label>
       <label class="toggle"><input type="checkbox" id="hidePlayed"> プレイ済みを隠す</label>
       <span class="count-badge" id="countBadge"></span>
     </div>
@@ -343,7 +357,6 @@ const emptyEl = document.getElementById("emptyMsg");
 const countBadge = document.getElementById("countBadge");
 const searchBox = document.getElementById("searchBox");
 const sortSelect = document.getElementById("sortSelect");
-const hideSoldOut = document.getElementById("hideSoldOut");
 const hidePlayed = document.getElementById("hidePlayed");
 
 document.querySelectorAll(".chip[data-players]").forEach(btn=>{
@@ -356,7 +369,6 @@ document.querySelectorAll(".chip[data-players]").forEach(btn=>{
 });
 searchBox.addEventListener("input", render);
 sortSelect.addEventListener("change", render);
-hideSoldOut.addEventListener("change", render);
 hidePlayed.addEventListener("change", render);
 
 function matchesPlayers(item){
@@ -375,9 +387,6 @@ function render(){
   let items = ALL_ITEMS.filter(matchesPlayers);
   if(q){
     items = items.filter(i => i.title.toLowerCase().includes(q));
-  }
-  if(hideSoldOut.checked){
-    items = items.filter(i => !i.soldOut);
   }
   if(hidePlayed.checked){
     items = items.filter(i => !getEntry(i.code).played);
@@ -440,7 +449,7 @@ function render(){
           <span class="mdms-stars-bg">★★★★★</span>
           <span class="mdms-stars-fg" style="width:${pct}%">★★★★★</span>
         </span>
-        <span class="mdms-label">${item.mdmsScore.toFixed(1)}（${item.mdmsReviewCount}件）</span>
+        <span class="mdms-label"><strong class="mdms-score-num">${item.mdmsScore.toFixed(1)}</strong><span class="mdms-count">（${item.mdmsReviewCount}件の評価）</span></span>
       `;
       card.appendChild(mdmsRow);
     }
