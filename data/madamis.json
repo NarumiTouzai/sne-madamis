@@ -1,7 +1,7 @@
 {
   "source": "SNE-EC（グループSNE公式アンテナショップ） https://sne-ec.com/category/item/murdermystery/",
   "fetchedAt": "2026-09-21",
-  "note": "価格はSNE-EC表示の税込価格。Amazon等の価格は自動取得できなかったため検索リンクのみ掲載。評価はブラウザのローカル保存（自分専用）。",
+  "note": "価格はSNE-EC表示の税込価格。Amazon等の価格は自動取得できなかったため検索リンクのみ掲載。mdmsScore/mdmsReviewCountはマダミス.jp(https://mdms.jp/)掲載の評価点(5点満点)・評価件数（2026-09-21取得、個別ページが無い作品はnull）。★評価と「プレイ済み」チェックはブラウザのローカル保存（自分専用）。",
   "items": [
     {
       "code": "M077",
@@ -13,7 +13,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/08/31/m077-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B6%E3%83%BB%E3%83%AC%E3%83%83%E3%83%89%E3%83%A9%E3%83%95%E3%82%BF%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B6%E3%83%BB%E3%83%AC%E3%83%83%E3%83%89%E3%83%A9%E3%83%95%E3%82%BF%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/11206",
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 41
     },
     {
       "code": "M075",
@@ -25,7 +28,10 @@
       "playersLabel": "5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/06/26/m075-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B6%88%E3%81%88%E3%81%9F%E3%83%91%E3%83%B3%E3%83%84%E3%81%A8%E7%A9%BA%E9%A3%9B%E3%81%B6%E3%82%B5%E3%82%AB%E3%83%8A"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B6%88%E3%81%88%E3%81%9F%E3%83%91%E3%83%B3%E3%83%84%E3%81%A8%E7%A9%BA%E9%A3%9B%E3%81%B6%E3%82%B5%E3%82%AB%E3%83%8A",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M068-03",
@@ -37,7 +43,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/06/20/m068-03/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%EF%BC%9A%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC%EF%BC%93%E9%83%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%EF%BC%9A%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC%EF%BC%93%E9%83%A8",
+      "mdmsUrl": "https://mdms.jp/scenarios/11068",
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 58
     },
     {
       "code": "M073",
@@ -49,7 +58,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/05/23/m073-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9B%AA%E3%81%AE%E7%A0%A6%E3%81%AB%E6%80%AA%E9%B3%A5%E3%81%8C%E8%88%9E%E3%81%86"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9B%AA%E3%81%AE%E7%A0%A6%E3%81%AB%E6%80%AA%E9%B3%A5%E3%81%8C%E8%88%9E%E3%81%86",
+      "mdmsUrl": "https://mdms.jp/scenarios/10801",
+      "mdmsScore": 3.1,
+      "mdmsReviewCount": 117
     },
     {
       "code": "M054-04",
@@ -61,7 +73,10 @@
       "playersLabel": "7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/04/24/m054-04/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%91%8A%E5%88%A5%E8%A9%A9"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%91%8A%E5%88%A5%E8%A9%A9",
+      "mdmsUrl": "https://mdms.jp/scenarios/7551",
+      "mdmsScore": 4.6,
+      "mdmsReviewCount": 190
     },
     {
       "code": "M071",
@@ -73,7 +88,10 @@
       "playersLabel": "2人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/04/10/m071-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%8A%B1%E3%81%A8%E9%A1%8D%E7%B8%81%E3%81%A8%E6%AE%BA%E4%BA%BA%E3%81%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%8A%B1%E3%81%A8%E9%A1%8D%E7%B8%81%E3%81%A8%E6%AE%BA%E4%BA%BA%E3%81%A8",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M068-02",
@@ -85,7 +103,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/02/13/m068-02/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%3A%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC2%E9%83%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%3A%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC2%E9%83%A8",
+      "mdmsUrl": "https://mdms.jp/scenarios/10798",
+      "mdmsScore": 4.1,
+      "mdmsReviewCount": 54
     },
     {
       "code": "M030-03",
@@ -97,7 +118,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/02/06/m030-03/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX%202026"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX%202026",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M054-03",
@@ -109,7 +133,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/01/31/m054-03/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%A4%9C%E7%85%8C%E2%80%95%E6%B6%88%E3%81%88%E3%81%9F%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%8E%A2%E3%81%9B%E2%80%95"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%A4%9C%E7%85%8C%E2%80%95%E6%B6%88%E3%81%88%E3%81%9F%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%92%E6%8E%A2%E3%81%9B%E2%80%95",
+      "mdmsUrl": "https://mdms.jp/scenarios/10591",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 26
     },
     {
       "code": "M070",
@@ -121,7 +148,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2026/01/31/m070-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B9%96%E7%95%94%E3%81%AE%E3%83%80%E3%82%A4%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B9%96%E7%95%94%E3%81%AE%E3%83%80%E3%82%A4%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8",
+      "mdmsUrl": "https://mdms.jp/scenarios/10548",
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 162
     },
     {
       "code": "M067",
@@ -133,7 +163,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/12/12/m067-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E3%81%AE%E9%A4%A8%E3%81%AB%E6%8E%A2%E5%81%B5%E4%BA%8C%E4%BA%BA"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E3%81%AE%E9%A4%A8%E3%81%AB%E6%8E%A2%E5%81%B5%E4%BA%8C%E4%BA%BA",
+      "mdmsUrl": "https://mdms.jp/scenarios/10160",
+      "mdmsScore": 3.3,
+      "mdmsReviewCount": 161
     },
     {
       "code": "M068-01",
@@ -145,7 +178,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/12/12/m068-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%3A%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC1%E9%83%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=Re%3A%20%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC1%E9%83%A8",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M065",
@@ -157,7 +193,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/10/31/m065-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%8D%BE%E4%B9%B3%E7%A9%B4%E3%81%AE%E5%A5%A5%E3%81%AE%E9%99%A2"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%8D%BE%E4%B9%B3%E7%A9%B4%E3%81%AE%E5%A5%A5%E3%81%AE%E9%99%A2",
+      "mdmsUrl": "https://mdms.jp/scenarios/10060",
+      "mdmsScore": 3,
+      "mdmsReviewCount": 170
     },
     {
       "code": "M063",
@@ -169,7 +208,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/09/20/m063-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8E%E3%81%AB%E5%96%B0%E3%82%8F%E3%82%8C%E3%81%9F%E7%94%B7"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%A9%E3%83%8E%E3%81%AB%E5%96%B0%E3%82%8F%E3%82%8C%E3%81%9F%E7%94%B7",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M062",
@@ -181,7 +223,10 @@
       "playersLabel": "4〜5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/09/13/m062-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4%E3%81%AE%E6%AE%BA%E4%BA%BA%E9%AC%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%97%E5%A0%B4%E3%81%AE%E6%AE%BA%E4%BA%BA%E9%AC%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/1070",
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 169
     },
     {
       "code": "M061",
@@ -193,7 +238,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/07/31/m061-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9A%E3%83%B3%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E5%A2%83%E5%9F%9F"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9A%E3%83%B3%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0%E3%81%AE%E5%A2%83%E5%9F%9F",
+      "mdmsUrl": "https://mdms.jp/scenarios/8432",
+      "mdmsScore": 4.2,
+      "mdmsReviewCount": 268
     },
     {
       "code": "M054-02",
@@ -205,7 +253,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/07/26/m054-02/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BD%A0%E5%A5%BD%E2%80%95%E8%A8%98%E6%86%B6%E3%81%AE%E6%AC%A0%E7%89%87%E2%80%95"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BD%A0%E5%A5%BD%E2%80%95%E8%A8%98%E6%86%B6%E3%81%AE%E6%AC%A0%E7%89%87%E2%80%95",
+      "mdmsUrl": "https://mdms.jp/scenarios/8299",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 103
     },
     {
       "code": "M059",
@@ -217,7 +268,10 @@
       "playersLabel": "2人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/07/26/m059-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%A7%81%E3%81%8C%E7%8A%AF%E4%BA%BA%E3%81%A0"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%A7%81%E3%81%8C%E7%8A%AF%E4%BA%BA%E3%81%A0",
+      "mdmsUrl": "https://mdms.jp/scenarios/8464",
+      "mdmsScore": 4.1,
+      "mdmsReviewCount": 73
     },
     {
       "code": "M056",
@@ -229,7 +283,10 @@
       "playersLabel": "5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/05/17/m056-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%A3%BA%E5%91%AA-%E3%83%92%E3%83%84%E3%82%AE%E3%83%8E%E3%83%AD%E3%82%A4-"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%A3%BA%E5%91%AA-%E3%83%92%E3%83%84%E3%82%AE%E3%83%8E%E3%83%AD%E3%82%A4-",
+      "mdmsUrl": "https://mdms.jp/scenarios/8173",
+      "mdmsScore": 4.2,
+      "mdmsReviewCount": 218
     },
     {
       "code": "M057",
@@ -241,7 +298,10 @@
       "playersLabel": "6〜7人",
       "soldOut": true,
       "officialUrl": "https://sne-ec.com/2025/05/17/m057-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E8%BC%AA%E8%88%9E%E6%9B%B2"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%A3%8F%E5%88%87%E3%82%8A%E3%81%AE%E8%BC%AA%E8%88%9E%E6%9B%B2",
+      "mdmsUrl": "https://mdms.jp/scenarios/8122",
+      "mdmsScore": 4.1,
+      "mdmsReviewCount": 278
     },
     {
       "code": "M055",
@@ -253,7 +313,10 @@
       "playersLabel": "4〜5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/04/25/m055-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=5%E4%BA%BA%E3%81%AE%E9%8A%80%E8%A1%8C%E5%BC%B7%E7%9B%97"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=5%E4%BA%BA%E3%81%AE%E9%8A%80%E8%A1%8C%E5%BC%B7%E7%9B%97",
+      "mdmsUrl": "https://mdms.jp/scenarios/1537",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 137
     },
     {
       "code": "M054-01",
@@ -265,7 +328,10 @@
       "playersLabel": "7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/04/11/m054-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=HORROR%20STORY%2001%3A30"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=HORROR%20STORY%2001%3A30",
+      "mdmsUrl": "https://mdms.jp/scenarios/8150",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 99
     },
     {
       "code": "M052",
@@ -277,7 +343,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/03/07/m052-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%BE%AA%E5%AE%B6"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%BE%AA%E5%AE%B6",
+      "mdmsUrl": "https://mdms.jp/scenarios/7841",
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 226
     },
     {
       "code": "M051",
@@ -289,7 +358,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/02/07/m051-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9C%8A%E8%83%BD%E8%80%85%E3%81%AF%E5%B9%BD%E9%9C%8A%E3%81%A8%E6%88%AF%E3%81%B6"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9C%8A%E8%83%BD%E8%80%85%E3%81%AF%E5%B9%BD%E9%9C%8A%E3%81%A8%E6%88%AF%E3%81%B6",
+      "mdmsUrl": "https://mdms.jp/scenarios/7927",
+      "mdmsScore": 3.4,
+      "mdmsReviewCount": 67
     },
     {
       "code": "M030-02",
@@ -301,7 +373,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2025/01/18/m030-02/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX2025"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX2025",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M048",
@@ -313,7 +388,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/12/13/m048-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B1%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%BC%20%E6%B4%9E%E7%AA%9F%E3%81%AE%E7%85%8C%E3%82%81%E3%81%8D"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B1%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%BC%20%E6%B4%9E%E7%AA%9F%E3%81%AE%E7%85%8C%E3%82%81%E3%81%8D",
+      "mdmsUrl": "https://mdms.jp/scenarios/7764",
+      "mdmsScore": 3.3,
+      "mdmsReviewCount": 82
     },
     {
       "code": "M049",
@@ -325,7 +403,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/12/05/m049-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%88%E4%B8%89%E6%9C%88%E3%81%86%E3%81%95%E3%81%8E%E3%80%89%E3%81%AE%E9%AC%BC%E6%8E%A2%E3%81%97"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%80%88%E4%B8%89%E6%9C%88%E3%81%86%E3%81%95%E3%81%8E%E3%80%89%E3%81%AE%E9%AC%BC%E6%8E%A2%E3%81%97",
+      "mdmsUrl": "https://mdms.jp/scenarios/7535",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 264
     },
     {
       "code": "M046",
@@ -337,7 +418,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/10/04/m046-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%AB%98%E9%80%9F%E6%B7%B1%E5%A4%9C%E4%BE%BF%E3%81%AE%E6%AE%BA%E4%BA%BA%E8%80%85"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%AB%98%E9%80%9F%E6%B7%B1%E5%A4%9C%E4%BE%BF%E3%81%AE%E6%AE%BA%E4%BA%BA%E8%80%85",
+      "mdmsUrl": "https://mdms.jp/scenarios/6923",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 107
     },
     {
       "code": "M045",
@@ -349,7 +433,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/09/27/m045-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%AB%E3%83%90%E3%83%88%E3%83%AD%E3%82%B9%E3%81%AE%E9%BB%84%E9%87%91%E3%81%AE%E9%9B%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%83%AB%E3%83%90%E3%83%88%E3%83%AD%E3%82%B9%E3%81%AE%E9%BB%84%E9%87%91%E3%81%AE%E9%9B%A8",
+      "mdmsUrl": "https://mdms.jp/scenarios/5230",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 283
     },
     {
       "code": "M043",
@@ -361,7 +448,10 @@
       "playersLabel": "7〜8人",
       "soldOut": true,
       "officialUrl": "https://sne-ec.com/2024/09/20/m043-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89%EF%BC%90"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89%EF%BC%90",
+      "mdmsUrl": "https://mdms.jp/scenarios/5175",
+      "mdmsScore": 4.2,
+      "mdmsReviewCount": 291
     },
     {
       "code": "M041",
@@ -373,7 +463,10 @@
       "playersLabel": "2人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/05/31/m041-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%BB%92%E7%99%BD%E6%B5%B7%E8%B7%AF"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%BB%92%E7%99%BD%E6%B5%B7%E8%B7%AF",
+      "mdmsUrl": "https://mdms.jp/scenarios/4650",
+      "mdmsScore": 4.2,
+      "mdmsReviewCount": 128
     },
     {
       "code": "M040",
@@ -385,7 +478,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/05/11/m040-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%9B%A0%E7%BF%92%E6%9D%91%E3%81%AE%E6%A5%B5%E5%85%89"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%9B%A0%E7%BF%92%E6%9D%91%E3%81%AE%E6%A5%B5%E5%85%89",
+      "mdmsUrl": "https://mdms.jp/scenarios/4002",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 284
     },
     {
       "code": "M039",
@@ -397,7 +493,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/04/19/m039-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%EF%BC%9A%E3%82%B6%E3%83%BB%E3%83%88%E3%83%AA%E3%83%AD%E3%82%B8%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%EF%BC%9A%E3%82%B6%E3%83%BB%E3%83%88%E3%83%AA%E3%83%AD%E3%82%B8%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/3315",
+      "mdmsScore": 4,
+      "mdmsReviewCount": 279
     },
     {
       "code": "M038",
@@ -409,7 +508,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/04/12/m038-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%AD%E5%B9%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%83%84%E3%82%A2%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%AD%E5%B9%8C%E7%95%B0%E4%B8%96%E7%95%8C%E3%83%84%E3%82%A2%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/4726",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 71
     },
     {
       "code": "M037",
@@ -421,7 +523,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2024/03/23/m037-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E3%81%AB%E6%B5%B8%E3%81%8B%E3%82%8B%E3%83%AF%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E3%81%AB%E6%B5%B8%E3%81%8B%E3%82%8B%E3%83%AF%E3%82%A4%E3%83%8A%E3%83%AA%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/3696",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 346
     },
     {
       "code": "M034",
@@ -433,7 +538,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/12/15/m034-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9F%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/3508",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 114
     },
     {
       "code": "M032",
@@ -445,7 +553,10 @@
       "playersLabel": "7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/08/11/m032-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%AE%E5%A1%94"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%AE%E5%A1%94",
+      "mdmsUrl": "https://mdms.jp/scenarios/2643",
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 260
     },
     {
       "code": "M031",
@@ -457,7 +568,10 @@
       "playersLabel": "5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/08/04/m031-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%80%E6%9C%9F%E3%81%AE%E3%82%BD%E3%83%AF%E3%83%AC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%80%E6%9C%9F%E3%81%AE%E3%82%BD%E3%83%AF%E3%83%AC",
+      "mdmsUrl": "https://mdms.jp/scenarios/909",
+      "mdmsScore": 3.5,
+      "mdmsReviewCount": 120
     },
     {
       "code": "M030-01",
@@ -469,7 +583,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/07/31/m030-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%82%A4%E3%83%89BOX",
+      "mdmsUrl": null,
+      "mdmsScore": null,
+      "mdmsReviewCount": null
     },
     {
       "code": "M027",
@@ -481,7 +598,10 @@
       "playersLabel": "2人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/05/19/m027-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%80%B1%E6%9C%AB%E3%81%AE%E6%AE%BA%E4%BA%BA%E9%AC%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%80%B1%E6%9C%AB%E3%81%AE%E6%AE%BA%E4%BA%BA%E9%AC%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/2329",
+      "mdmsScore": 3.5,
+      "mdmsReviewCount": 122
     },
     {
       "code": "M028",
@@ -493,7 +613,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/05/19/m028-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%AA%B0%E3%81%8C%E3%81%9F%E3%82%81%E3%81%AB%E4%BC%9D%E6%9B%B8%E9%B3%A9%E3%81%AF%E9%A3%9B%E3%81%B6"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E8%AA%B0%E3%81%8C%E3%81%9F%E3%82%81%E3%81%AB%E4%BC%9D%E6%9B%B8%E9%B3%A9%E3%81%AF%E9%A3%9B%E3%81%B6",
+      "mdmsUrl": "https://mdms.jp/scenarios/2330",
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 300
     },
     {
       "code": "M025",
@@ -505,7 +628,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/03/24/m025-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%84%AA%E3%81%97%E3%81%84%E6%AD%BB%E7%A5%9E%E3%81%AE%E5%B8%AD"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%84%AA%E3%81%97%E3%81%84%E6%AD%BB%E7%A5%9E%E3%81%AE%E5%B8%AD",
+      "mdmsUrl": "https://mdms.jp/scenarios/2296",
+      "mdmsScore": 4,
+      "mdmsReviewCount": 321
     },
     {
       "code": "M024",
@@ -517,7 +643,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2023/03/10/m024-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%88%A5%E8%8D%98%E6%AE%BA%E4%BA%BA"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%88%A5%E8%8D%98%E6%AE%BA%E4%BA%BA",
+      "mdmsUrl": "https://mdms.jp/scenarios/2246",
+      "mdmsScore": 3.4,
+      "mdmsReviewCount": 153
     },
     {
       "code": "M022",
@@ -529,7 +658,10 @@
       "playersLabel": "5〜6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/10/29/m022-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%AE%E5%9B%B3%E6%9B%B8%E9%A4%A8"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%BD%AA%E3%81%A8%E7%BD%B0%E3%81%AE%E5%9B%B3%E6%9B%B8%E9%A4%A8",
+      "mdmsUrl": "https://mdms.jp/scenarios/2052",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 393
     },
     {
       "code": "M023",
@@ -541,7 +673,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/10/29/m023-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BA%AC%E9%83%BD%E7%95%B0%E4%B8%96%E7%95%8C%E3%83%84%E3%82%A2%E3%83%BC"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BA%AC%E9%83%BD%E7%95%B0%E4%B8%96%E7%95%8C%E3%83%84%E3%82%A2%E3%83%BC",
+      "mdmsUrl": "https://mdms.jp/scenarios/692",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 129
     },
     {
       "code": "M020",
@@ -553,7 +688,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/07/15/m020-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9C%A7%E8%90%BD%E5%B3%A0"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%9C%A7%E8%90%BD%E5%B3%A0",
+      "mdmsUrl": "https://mdms.jp/scenarios/2001",
+      "mdmsScore": 3.2,
+      "mdmsReviewCount": 86
     },
     {
       "code": "M019",
@@ -565,7 +703,10 @@
       "playersLabel": "6人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/06/30/m019-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%BB%83%E5%9F%8E%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%BB%83%E5%9F%8E%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB",
+      "mdmsUrl": "https://mdms.jp/scenarios/1869",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 225
     },
     {
       "code": "M017",
@@ -577,7 +718,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/04/23/m017-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%AA%E3%82%A2%E3%81%AF%E6%AD%8C%E3%82%8F%E3%81%AA%E3%81%84"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%AB%E3%83%8A%E3%83%AA%E3%82%A2%E3%81%AF%E6%AD%8C%E3%82%8F%E3%81%AA%E3%81%84",
+      "mdmsUrl": "https://mdms.jp/scenarios/1849",
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 167
     },
     {
       "code": "M018",
@@ -589,7 +733,10 @@
       "playersLabel": "6〜8人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/04/23/m018-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%80%E6%9E%9C%E4%BA%AD%E3%81%AE%E7%81%BD%E7%A6%8D"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%80%E6%9E%9C%E4%BA%AD%E3%81%AE%E7%81%BD%E7%A6%8D",
+      "mdmsUrl": "https://mdms.jp/scenarios/83",
+      "mdmsScore": 4,
+      "mdmsReviewCount": 401
     },
     {
       "code": "M016",
@@ -601,7 +748,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/02/18/m016-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%83%B3%E3%81%84%E3%81%AF%E6%BA%80%E5%A4%A9%E3%81%AE%E6%98%9F%E3%81%AB"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%83%B3%E3%81%84%E3%81%AF%E6%BA%80%E5%A4%A9%E3%81%AE%E6%98%9F%E3%81%AB",
+      "mdmsUrl": "https://mdms.jp/scenarios/104",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 288
     },
     {
       "code": "M015",
@@ -613,7 +763,10 @@
       "playersLabel": "4人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2022/02/10/m015-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E9%82%B8%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E9%82%B8%E6%AE%BA%E4%BA%BA%E4%BA%8B%E4%BB%B6",
+      "mdmsUrl": "https://mdms.jp/scenarios/1743",
+      "mdmsScore": 3.5,
+      "mdmsReviewCount": 145
     },
     {
       "code": "M014",
@@ -625,7 +778,10 @@
       "playersLabel": "7人",
       "soldOut": true,
       "officialUrl": "https://sne-ec.com/2021/12/03/m014-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%A5%87%E6%83%B3%E3%80%81%E3%82%A2%E3%83%A0%E3%83%8D%E3%82%B8%E3%82%A2"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%A5%87%E6%83%B3%E3%80%81%E3%82%A2%E3%83%A0%E3%83%8D%E3%82%B8%E3%82%A2",
+      "mdmsUrl": "https://mdms.jp/scenarios/26",
+      "mdmsScore": 4.3,
+      "mdmsReviewCount": 406
     },
     {
       "code": "M013",
@@ -637,7 +793,10 @@
       "playersLabel": "4〜5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/11/22/m013-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%80%81%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%80%81%E5%A4%A7%E4%BA%BA%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6",
+      "mdmsUrl": "https://mdms.jp/scenarios/1001",
+      "mdmsScore": 4.5,
+      "mdmsReviewCount": 678
     },
     {
       "code": "M010",
@@ -649,7 +808,10 @@
       "playersLabel": "2人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/09/29/m010-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%B4%AB%E4%B9%83%E6%B7%B5%E3%83%AA%E3%83%A9%E3%82%A4%E3%83%88"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E7%B4%AB%E4%B9%83%E6%B7%B5%E3%83%AA%E3%83%A9%E3%82%A4%E3%83%88",
+      "mdmsUrl": "https://mdms.jp/scenarios/473",
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 197
     },
     {
       "code": "M011",
@@ -661,7 +823,10 @@
       "playersLabel": "3人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/09/29/m011-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%99%82%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB",
+      "mdmsUrl": "https://mdms.jp/scenarios/693",
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 128
     },
     {
       "code": "M012",
@@ -673,7 +838,10 @@
       "playersLabel": "4〜5人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/09/29/m012-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E4%BD%93%E3%81%A8%E6%B8%A9%E6%B3%89"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%AD%BB%E4%BD%93%E3%81%A8%E6%B8%A9%E6%B3%89",
+      "mdmsUrl": "https://mdms.jp/scenarios/918",
+      "mdmsScore": 3.4,
+      "mdmsReviewCount": 201
     },
     {
       "code": "M008",
@@ -685,7 +853,10 @@
       "playersLabel": "7〜8人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/06/21/m008-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89",
+      "mdmsUrl": "https://mdms.jp/scenarios/29",
+      "mdmsScore": 4.2,
+      "mdmsReviewCount": 458
     },
     {
       "code": "M009",
@@ -697,7 +868,10 @@
       "playersLabel": "6〜7人",
       "soldOut": true,
       "officialUrl": "https://sne-ec.com/2021/06/21/m009-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3%E3%80%81%E3%83%AC%E3%83%83%E3%83%89%E3%83%BB%E3%83%80%E3%82%A4"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%BB%E3%83%AC%E3%82%A4%E3%83%B4%E3%83%B3%E3%80%81%E3%83%AC%E3%83%83%E3%83%89%E3%83%BB%E3%83%80%E3%82%A4",
+      "mdmsUrl": "https://mdms.jp/scenarios/28",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 334
     },
     {
       "code": "M001",
@@ -709,7 +883,10 @@
       "playersLabel": "7〜9人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m001-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%B9%9D%E9%A0%AD%E7%AB%9C%E9%A4%A8%E3%81%AE%E6%AE%BA%E4%BA%BA"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%B9%9D%E9%A0%AD%E7%AB%9C%E9%A4%A8%E3%81%AE%E6%AE%BA%E4%BA%BA",
+      "mdmsUrl": "https://mdms.jp/scenarios/77",
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 406
     },
     {
       "code": "M002",
@@ -721,7 +898,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m002-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BD%95%E5%BA%A6%E3%81%A0%E3%81%A3%E3%81%A6%E9%9D%92%E3%81%84%E6%9C%88%E3%81%AB%E7%81%AB%E3%82%92%E7%81%AF%E3%81%97%E3%81%9F"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BD%95%E5%BA%A6%E3%81%A0%E3%81%A3%E3%81%A6%E9%9D%92%E3%81%84%E6%9C%88%E3%81%AB%E7%81%AB%E3%82%92%E7%81%AF%E3%81%97%E3%81%9F",
+      "mdmsUrl": "https://mdms.jp/scenarios/70",
+      "mdmsScore": 4.3,
+      "mdmsReviewCount": 742
     },
     {
       "code": "M003",
@@ -733,7 +913,10 @@
       "playersLabel": "7〜8人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m003-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BA%BA%E7%8B%BC%E6%9D%91%E3%81%AE%E7%A5%9D%E7%A5%AD"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BA%BA%E7%8B%BC%E6%9D%91%E3%81%AE%E7%A5%9D%E7%A5%AD",
+      "mdmsUrl": "https://mdms.jp/scenarios/31",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 356
     },
     {
       "code": "M004",
@@ -745,7 +928,10 @@
       "playersLabel": "7〜9人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m004-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A6%E3%83%BC%E3%83%AB%E3%81%AB%E8%B4%96%E3%81%84%E3%82%92"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A6%E3%83%BC%E3%83%AB%E3%81%AB%E8%B4%96%E3%81%84%E3%82%92",
+      "mdmsUrl": "https://mdms.jp/scenarios/30",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 319
     },
     {
       "code": "M005",
@@ -757,7 +943,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m005-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B2%B3%E8%BE%BA%E3%81%AE%E5%A4%9C%E3%81%AE%E5%A4%A2"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B2%B3%E8%BE%BA%E3%81%AE%E5%A4%9C%E3%81%AE%E5%A4%A2",
+      "mdmsUrl": "https://mdms.jp/scenarios/78",
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 283
     },
     {
       "code": "M006",
@@ -769,7 +958,10 @@
       "playersLabel": "8〜9人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m006-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%81%82%E3%81%AE%E5%A4%8F%E3%81%AE%E5%9B%9A%E4%BA%BA"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%81%82%E3%81%AE%E5%A4%8F%E3%81%AE%E5%9B%9A%E4%BA%BA",
+      "mdmsUrl": "https://mdms.jp/scenarios/79",
+      "mdmsScore": 4.3,
+      "mdmsReviewCount": 399
     },
     {
       "code": "M007",
@@ -781,7 +973,10 @@
       "playersLabel": "6〜7人",
       "soldOut": false,
       "officialUrl": "https://sne-ec.com/2021/01/25/m007-01/",
-      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%AD%94%E5%A5%B3%E3%81%AF%E9%BB%84%E6%98%8F%E3%81%AE%E9%90%98%E3%81%AB%E6%B6%88%E3%81%88%E3%82%8B"
+      "amazonUrl": "https://www.amazon.co.jp/s?k=%E9%AD%94%E5%A5%B3%E3%81%AF%E9%BB%84%E6%98%8F%E3%81%AE%E9%90%98%E3%81%AB%E6%B6%88%E3%81%88%E3%82%8B",
+      "mdmsUrl": "https://mdms.jp/scenarios/80",
+      "mdmsScore": 3.5,
+      "mdmsReviewCount": 291
     }
   ]
 }

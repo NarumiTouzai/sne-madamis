@@ -77,6 +77,69 @@ ITEMS = [
     ("M077", "ザ・レッドラフター", "2026-08-31", 3600, 6, 6, False, "https://sne-ec.com/2026/08/31/m077-01/"),
 ]
 
+# マダミス.jp (https://mdms.jp/) の評価点(5点満点)・評価件数。取得日: 2026-09-21
+# 個別シナリオページが見当たらなかった作品(セット商品や未掲載作品)は含めていない。
+MDMS = {
+    "M001": (77, 3.7, 406),
+    "M002": (70, 4.3, 742),
+    "M003": (31, 3.8, 356),
+    "M004": (30, 3.8, 319),
+    "M005": (78, 3.8, 283),
+    "M006": (79, 4.3, 399),
+    "M007": (80, 3.5, 291),
+    "M008": (29, 4.2, 458),
+    "M009": (28, 3.8, 334),
+    "M010": (473, 3.7, 197),
+    "M011": (693, 3.6, 128),
+    "M012": (918, 3.4, 201),
+    "M013": (1001, 4.5, 678),
+    "M014": (26, 4.3, 406),
+    "M015": (1743, 3.5, 145),
+    "M016": (104, 3.8, 288),
+    "M017": (1849, 3.7, 167),
+    "M018": (83, 4.0, 401),
+    "M019": (1869, 3.8, 225),
+    "M020": (2001, 3.2, 86),
+    "M022": (2052, 3.8, 393),
+    "M023": (692, 3.6, 129),
+    "M024": (2246, 3.4, 153),
+    "M025": (2296, 4.0, 321),
+    "M027": (2329, 3.5, 122),
+    "M028": (2330, 3.9, 300),
+    "M031": (909, 3.5, 120),
+    "M032": (2643, 3.9, 260),
+    "M034": (3508, 3.6, 114),
+    "M037": (3696, 3.8, 346),
+    "M038": (4726, 3.8, 71),
+    "M039": (3315, 4.0, 279),
+    "M040": (4002, 3.8, 284),
+    "M041": (4650, 4.2, 128),
+    "M043": (5175, 4.2, 291),
+    "M045": (5230, 3.8, 283),
+    "M046": (6923, 3.6, 107),
+    "M048": (7764, 3.3, 82),
+    "M049": (7535, 3.6, 264),
+    "M051": (7927, 3.4, 67),
+    "M052": (7841, 3.7, 226),
+    "M054-01": (8150, 3.6, 99),
+    "M055": (1537, 3.6, 137),
+    "M056": (8173, 4.2, 218),
+    "M057": (8122, 4.1, 278),
+    "M054-02": (8299, 3.8, 103),
+    "M059": (8464, 4.1, 73),
+    "M061": (8432, 4.2, 268),
+    "M062": (1070, 3.9, 169),
+    "M065": (10060, 3.0, 170),
+    "M067": (10160, 3.3, 161),
+    "M054-03": (10591, 3.8, 26),
+    "M070": (10548, 3.9, 162),
+    "M068-02": (10798, 4.1, 54),
+    "M054-04": (7551, 4.6, 190),
+    "M073": (10801, 3.1, 117),
+    "M068-03": (11068, 3.7, 58),
+    "M077": (11206, 3.9, 41),
+}
+
 def players_label(mn, mx):
     if mn == mx:
         return f"{mn}人"
@@ -87,8 +150,16 @@ def amazon_search_url(title):
     q = urllib.parse.quote(title)
     return f"https://www.amazon.co.jp/s?k={q}"
 
+def mdms_info(code):
+    entry = MDMS.get(code)
+    if not entry:
+        return None, None, None
+    scenario_id, score, count = entry
+    return f"https://mdms.jp/scenarios/{scenario_id}", score, count
+
 data = []
 for code, title, date, price, mn, mx, soldout, url in ITEMS:
+    mdms_url, mdms_score, mdms_count = mdms_info(code)
     data.append({
         "code": code,
         "title": title,
@@ -100,6 +171,9 @@ for code, title, date, price, mn, mx, soldout, url in ITEMS:
         "soldOut": soldout,
         "officialUrl": url,
         "amazonUrl": amazon_search_url(title),
+        "mdmsUrl": mdms_url,
+        "mdmsScore": mdms_score,
+        "mdmsReviewCount": mdms_count,
     })
 
 # sort by release date desc by default (frontend can re-sort)
@@ -108,7 +182,7 @@ data.sort(key=lambda x: x["releaseDate"], reverse=True)
 out = {
     "source": "SNE-EC（グループSNE公式アンテナショップ） https://sne-ec.com/category/item/murdermystery/",
     "fetchedAt": "2026-09-21",
-    "note": "価格はSNE-EC表示の税込価格。Amazon等の価格は自動取得できなかったため検索リンクのみ掲載。評価はブラウザのローカル保存（自分専用）。",
+    "note": "価格はSNE-EC表示の税込価格。Amazon等の価格は自動取得できなかったため検索リンクのみ掲載。mdmsScore/mdmsReviewCountはマダミス.jp(https://mdms.jp/)掲載の評価点(5点満点)・評価件数（2026-09-21取得、個別ページが無い作品はnull）。★評価と「プレイ済み」チェックはブラウザのローカル保存（自分専用）。",
     "items": data,
 }
 

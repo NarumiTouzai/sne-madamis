@@ -204,6 +204,7 @@
     gap:14px;
     flex-wrap:wrap;
   }
+  .mdms-score{ color:var(--gold); font-weight:600; }
   .links{
     display:flex;
     gap:8px;
@@ -285,6 +286,7 @@
         <option value="price-asc">価格が安い順</option>
         <option value="price-desc">価格が高い順</option>
         <option value="rating-desc">自分の評価が高い順</option>
+        <option value="mdms-desc">マダミス.jp評価が高い順</option>
         <option value="title-asc">タイトル順</option>
       </select>
       <input type="text" id="searchBox" placeholder="タイトルで検索">
@@ -300,7 +302,8 @@
 
 <footer>
   出典: SNE-EC（グループSNE公式アンテナショップ）<a href="https://sne-ec.com/category/item/murdermystery/" target="_blank" rel="noopener">https://sne-ec.com/category/item/murdermystery/</a>（2026-09-21取得）。
-  価格はSNE-EC表示の税込定価です。Amazon等の実売価格・レビューは自動取得できなかったため、検索リンクのみ掲載しています。
+  価格はSNE-EC表示の税込定価です。Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。
+  「マダミス.jp評価」は<a href="https://mdms.jp/" target="_blank" rel="noopener">マダミス.jp</a>掲載の評価点(5点満点)・評価件数です（2026-09-21取得）。セット商品や同サイト未掲載の作品は評価が表示されません。
   ★評価と「プレイ済み」は、あなたが今開いているブラウザだけに保存され、他のメンバーとは共有されません。
 </footer>
 
@@ -378,6 +381,7 @@ function render(){
       case "price-asc": return a.price - b.price;
       case "price-desc": return b.price - a.price;
       case "rating-desc": return getEntry(b.code).rating - getEntry(a.code).rating;
+      case "mdms-desc": return (b.mdmsScore ?? -1) - (a.mdmsScore ?? -1);
       case "title-asc": return a.title.localeCompare(b.title, "ja");
       default: return 0;
     }
@@ -418,6 +422,13 @@ function render(){
     meta.innerHTML = `<span>¥${item.price.toLocaleString()}（税込・公式）</span><span>発売: ${item.releaseDate}</span>`;
     card.appendChild(meta);
 
+    if(item.mdmsScore != null){
+      const mdms = document.createElement("div");
+      mdms.className = "meta";
+      mdms.innerHTML = `<span class="mdms-score">マダミス.jp評価 ★${item.mdmsScore.toFixed(1)}（${item.mdmsReviewCount}件）</span>`;
+      card.appendChild(mdms);
+    }
+
     const links = document.createElement("div");
     links.className = "links";
     const officialLink = document.createElement("a");
@@ -434,6 +445,15 @@ function render(){
     amazonLink.textContent = "Amazonで検索";
     links.appendChild(officialLink);
     links.appendChild(amazonLink);
+    if(item.mdmsUrl){
+      const mdmsLink = document.createElement("a");
+      mdmsLink.className = "link-btn";
+      mdmsLink.href = item.mdmsUrl;
+      mdmsLink.target = "_blank";
+      mdmsLink.rel = "noopener";
+      mdmsLink.textContent = "マダミス.jpで見る";
+      links.appendChild(mdmsLink);
+    }
     card.appendChild(links);
 
     const bottom = document.createElement("div");
