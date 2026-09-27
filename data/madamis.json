@@ -1,6 +1,6 @@
 {
   "source": "SNE-EC（グループSNE公式アンテナショップ） https://sne-ec.com/category/item/murdermystery/",
-  "fetchedAt": "2026-09-21",
+  "fetchedAt": "2026-09-27",
   "note": "価格はSNE-EC表示の税込価格。在庫状況・Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。mdmsScore/mdmsReviewCountはマダミス.jp(https://mdms.jp/)掲載の評価点(5点満点)・評価件数です。個別ページが無い/未登録の作品はnullです。★評価と「プレイ済み」チェックはブラウザのローカル保存（自分専用）。",
   "items": [
     {
@@ -15,8 +15,8 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%82%B6%E3%83%BB%E3%83%AC%E3%83%83%E3%83%89%E3%83%A9%E3%83%95%E3%82%BF%E3%83%BC",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/08/m077-01_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/11206",
-      "mdmsScore": 3.9,
-      "mdmsReviewCount": 41
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 57
     },
     {
       "code": "M075",
@@ -46,7 +46,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/06/m068-03_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/11068",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 58
+      "mdmsReviewCount": 60
     },
     {
       "code": "M073",
@@ -61,7 +61,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/05/m073-01_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10801",
       "mdmsScore": 3.1,
-      "mdmsReviewCount": 117
+      "mdmsReviewCount": 121
     },
     {
       "code": "M054-04",
@@ -76,7 +76,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/04/m054-04.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7551",
       "mdmsScore": 4.6,
-      "mdmsReviewCount": 190
+      "mdmsReviewCount": 192
     },
     {
       "code": "M071",
@@ -106,7 +106,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/02/m068-02.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10798",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 54
+      "mdmsReviewCount": 55
     },
     {
       "code": "M030-03",
@@ -136,7 +136,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/01/m070-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10548",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 162
+      "mdmsReviewCount": 172
     },
     {
       "code": "M054-03",
@@ -181,7 +181,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/12/m067-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10160",
       "mdmsScore": 3.3,
-      "mdmsReviewCount": 161
+      "mdmsReviewCount": 168
     },
     {
       "code": "M065",
@@ -196,7 +196,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/10/m065-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10060",
       "mdmsScore": 3,
-      "mdmsReviewCount": 170
+      "mdmsReviewCount": 175
     },
     {
       "code": "M063",
@@ -226,7 +226,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/09/m062-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1070",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 169
+      "mdmsReviewCount": 171
     },
     {
       "code": "M061",
@@ -241,7 +241,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m061-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8432",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 268
+      "mdmsReviewCount": 271
     },
     {
       "code": "M054-02",
@@ -256,7 +256,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m054-02.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8299",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 103
+      "mdmsReviewCount": 104
     },
     {
       "code": "M059",
@@ -271,7 +271,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m059-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8464",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 73
+      "mdmsReviewCount": 74
     },
     {
       "code": "M057",
@@ -286,7 +286,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/05/m057-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8122",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 278
+      "mdmsReviewCount": 285
     },
     {
       "code": "M056",
@@ -301,7 +301,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/05/m056-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8173",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 218
+      "mdmsReviewCount": 221
     },
     {
       "code": "M055",
@@ -316,7 +316,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/04/m055-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1537",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 137
+      "mdmsReviewCount": 138
     },
     {
       "code": "M054-01",
@@ -346,7 +346,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/03/m052-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7841",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 226
+      "mdmsReviewCount": 231
     },
     {
       "code": "M051",
@@ -391,7 +391,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/12/m048-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7764",
       "mdmsScore": 3.3,
-      "mdmsReviewCount": 82
+      "mdmsReviewCount": 83
     },
     {
       "code": "M049",
@@ -406,7 +406,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/12/m049-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7535",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 264
+      "mdmsReviewCount": 266
     },
     {
       "code": "M046",
@@ -421,7 +421,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/10/m046-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/6923",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 107
+      "mdmsReviewCount": 108
     },
     {
       "code": "M045",
@@ -436,7 +436,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/09/m045-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/5230",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 283
+      "mdmsReviewCount": 289
     },
     {
       "code": "M043",
@@ -450,8 +450,8 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89%EF%BC%90",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/09/m043-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/5175",
-      "mdmsScore": 4.2,
-      "mdmsReviewCount": 291
+      "mdmsScore": 4.1,
+      "mdmsReviewCount": 295
     },
     {
       "code": "M041",
@@ -481,7 +481,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/05/m040-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/4002",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 284
+      "mdmsReviewCount": 287
     },
     {
       "code": "M039",
@@ -496,7 +496,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/04/m039-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/3315",
       "mdmsScore": 4,
-      "mdmsReviewCount": 279
+      "mdmsReviewCount": 281
     },
     {
       "code": "M038",
@@ -526,7 +526,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/03/m037-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/3696",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 346
+      "mdmsReviewCount": 350
     },
     {
       "code": "M034",
@@ -556,7 +556,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/08/m032-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2643",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 260
+      "mdmsReviewCount": 263
     },
     {
       "code": "M031",
@@ -571,7 +571,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/08/m031-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/909",
       "mdmsScore": 3.5,
-      "mdmsReviewCount": 120
+      "mdmsReviewCount": 121
     },
     {
       "code": "M030-01",
@@ -601,7 +601,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/05/M028-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2330",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 300
+      "mdmsReviewCount": 305
     },
     {
       "code": "M027",
@@ -616,7 +616,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/05/m027-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2329",
       "mdmsScore": 3.5,
-      "mdmsReviewCount": 122
+      "mdmsReviewCount": 123
     },
     {
       "code": "M025",
@@ -631,7 +631,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/04/m025-01_1200w_q50.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/2296",
       "mdmsScore": 4,
-      "mdmsReviewCount": 321
+      "mdmsReviewCount": 322
     },
     {
       "code": "M024",
@@ -661,7 +661,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/10/m022-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2052",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 393
+      "mdmsReviewCount": 396
     },
     {
       "code": "M023",
@@ -676,7 +676,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/10/m023-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/692",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 129
+      "mdmsReviewCount": 130
     },
     {
       "code": "M020",
@@ -705,8 +705,8 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E5%BB%83%E5%9F%8E%E3%81%AE%E9%8C%AC%E9%87%91%E8%A1%93%E5%B8%AB",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/06/m019-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1869",
-      "mdmsScore": 3.8,
-      "mdmsReviewCount": 225
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 230
     },
     {
       "code": "M017",
@@ -736,7 +736,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/04/最果亭の災禍.png",
       "mdmsUrl": "https://mdms.jp/scenarios/83",
       "mdmsScore": 4,
-      "mdmsReviewCount": 401
+      "mdmsReviewCount": 407
     },
     {
       "code": "M016",
@@ -751,7 +751,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/02/M016-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/104",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 288
+      "mdmsReviewCount": 292
     },
     {
       "code": "M015",
@@ -781,7 +781,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/12/奇想、アムネジア.png",
       "mdmsUrl": "https://mdms.jp/scenarios/26",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 406
+      "mdmsReviewCount": 408
     },
     {
       "code": "M013",
@@ -796,7 +796,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/11/ウェンディ大人になって.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1001",
       "mdmsScore": 4.5,
-      "mdmsReviewCount": 678
+      "mdmsReviewCount": 684
     },
     {
       "code": "M010",
@@ -811,7 +811,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/09/紫乃淵リライト.png",
       "mdmsUrl": "https://mdms.jp/scenarios/473",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 197
+      "mdmsReviewCount": 198
     },
     {
       "code": "M011",
@@ -856,7 +856,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/06/ホワイト・レイヴン、レッド・ダイ-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/28",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 334
+      "mdmsReviewCount": 337
     },
     {
       "code": "M008",
@@ -871,7 +871,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/06/マーダーミステリー・オブ・ザ・デッド-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/29",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 458
+      "mdmsReviewCount": 462
     },
     {
       "code": "M007",
@@ -886,7 +886,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/0RPM7boxtop_3-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/80",
       "mdmsScore": 3.5,
-      "mdmsReviewCount": 291
+      "mdmsReviewCount": 295
     },
     {
       "code": "M006",
@@ -901,7 +901,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/RPM4boxtop.png",
       "mdmsUrl": "https://mdms.jp/scenarios/79",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 399
+      "mdmsReviewCount": 402
     },
     {
       "code": "M005",
@@ -915,8 +915,8 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B2%B3%E8%BE%BA%E3%81%AE%E5%A4%9C%E3%81%AE%E5%A4%A2",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/RPM6boxtop.png",
       "mdmsUrl": "https://mdms.jp/scenarios/78",
-      "mdmsScore": 3.8,
-      "mdmsReviewCount": 283
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 288
     },
     {
       "code": "M004",
@@ -931,7 +931,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/200212RPM5boxtopsample-01-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/30",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 319
+      "mdmsReviewCount": 320
     },
     {
       "code": "M003",
@@ -961,7 +961,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/MURDER_bluemoon_top.png",
       "mdmsUrl": "https://mdms.jp/scenarios/70",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 742
+      "mdmsReviewCount": 751
     },
     {
       "code": "M001",
@@ -976,7 +976,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/MURDER_cthulhu_top.png",
       "mdmsUrl": "https://mdms.jp/scenarios/77",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 406
+      "mdmsReviewCount": 411
     }
   ]
 }
