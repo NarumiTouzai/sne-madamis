@@ -1,13 +1,13 @@
 {
   "source": "SNE-EC（グループSNE公式アンテナショップ） https://sne-ec.com/category/item/murdermystery/",
-  "fetchedAt": "2026-09-27",
+  "fetchedAt": "2026-10-04",
   "note": "価格はSNE-EC表示の税込価格。在庫状況・Amazon等の実売価格は自動取得できなかったため、検索リンクのみ掲載しています。mdmsScore/mdmsReviewCountはマダミス.jp(https://mdms.jp/)掲載の評価点(5点満点)・評価件数です。個別ページが無い/未登録の作品はnullです。★評価と「プレイ済み」チェックはブラウザのローカル保存（自分専用）。",
   "items": [
     {
       "code": "M077",
       "title": "ザ・レッドラフター",
       "releaseDate": "2026-08-31",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -16,13 +16,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/08/m077-01_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/11206",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 57
+      "mdmsReviewCount": 68
     },
     {
       "code": "M075",
       "title": "消えたパンツと空飛ぶサカナ",
       "releaseDate": "2026-06-26",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 5,
       "maxPlayers": 5,
       "playersLabel": "5人",
@@ -37,7 +37,7 @@
       "code": "M068-03",
       "title": "Re：ゴーストマーダー 第３部",
       "releaseDate": "2026-06-20",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -45,14 +45,14 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=Re%EF%BC%9A%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%20%E7%AC%AC%EF%BC%93%E9%83%A8",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/06/m068-03_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/11068",
-      "mdmsScore": 3.7,
-      "mdmsReviewCount": 60
+      "mdmsScore": 3.6,
+      "mdmsReviewCount": 62
     },
     {
       "code": "M073",
       "title": "雪の砦に怪鳥が舞う",
       "releaseDate": "2026-05-23",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -61,7 +61,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/05/m073-01_01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10801",
       "mdmsScore": 3.1,
-      "mdmsReviewCount": 121
+      "mdmsReviewCount": 123
     },
     {
       "code": "M054-04",
@@ -76,13 +76,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/04/m054-04.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7551",
       "mdmsScore": 4.6,
-      "mdmsReviewCount": 192
+      "mdmsReviewCount": 195
     },
     {
       "code": "M071",
       "title": "花と額縁と殺人と",
       "releaseDate": "2026-04-10",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 2,
       "maxPlayers": 2,
       "playersLabel": "2人",
@@ -97,7 +97,7 @@
       "code": "M068-02",
       "title": "Re: ゴーストマーダー 第2部",
       "releaseDate": "2026-02-13",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -106,7 +106,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/02/m068-02.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10798",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 55
+      "mdmsReviewCount": 57
     },
     {
       "code": "M030-03",
@@ -127,7 +127,7 @@
       "code": "M070",
       "title": "湖畔のダイイングメッセージ",
       "releaseDate": "2026-01-31",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -136,7 +136,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2026/01/m070-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10548",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 172
+      "mdmsReviewCount": 175
     },
     {
       "code": "M054-03",
@@ -157,7 +157,7 @@
       "code": "M068-01",
       "title": "Re: ゴーストマーダー 第1部",
       "releaseDate": "2025-12-12",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -172,7 +172,7 @@
       "code": "M067",
       "title": "死の館に探偵二人",
       "releaseDate": "2025-12-12",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -181,13 +181,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/12/m067-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10160",
       "mdmsScore": 3.3,
-      "mdmsReviewCount": 168
+      "mdmsReviewCount": 169
     },
     {
       "code": "M065",
       "title": "鍾乳穴の奥の院",
       "releaseDate": "2025-10-31",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -196,13 +196,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/10/m065-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/10060",
       "mdmsScore": 3,
-      "mdmsReviewCount": 175
+      "mdmsReviewCount": 177
     },
     {
       "code": "M063",
       "title": "ティラノに喰われた男",
       "releaseDate": "2025-09-20",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -217,7 +217,7 @@
       "code": "M062",
       "title": "キャンプ場の殺人鬼",
       "releaseDate": "2025-09-13",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 5,
       "playersLabel": "4〜5人",
@@ -232,7 +232,7 @@
       "code": "M061",
       "title": "ペンタグラムの境域",
       "releaseDate": "2025-07-31",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -241,7 +241,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m061-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8432",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 271
+      "mdmsReviewCount": 283
     },
     {
       "code": "M054-02",
@@ -256,13 +256,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m054-02.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8299",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 104
+      "mdmsReviewCount": 105
     },
     {
       "code": "M059",
       "title": "私が犯人だ",
       "releaseDate": "2025-07-26",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 2,
       "maxPlayers": 2,
       "playersLabel": "2人",
@@ -271,13 +271,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/07/m059-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8464",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 74
+      "mdmsReviewCount": 76
     },
     {
       "code": "M057",
       "title": "裏切りの輪舞曲",
       "releaseDate": "2025-05-17",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -292,7 +292,7 @@
       "code": "M056",
       "title": "棺呪-ヒツギノロイ-",
       "releaseDate": "2025-05-17",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 5,
       "maxPlayers": 5,
       "playersLabel": "5人",
@@ -301,13 +301,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/05/m056-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8173",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 221
+      "mdmsReviewCount": 228
     },
     {
       "code": "M055",
       "title": "5人の銀行強盗",
       "releaseDate": "2025-04-25",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 5,
       "playersLabel": "4〜5人",
@@ -316,7 +316,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/04/m055-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1537",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 138
+      "mdmsReviewCount": 139
     },
     {
       "code": "M054-01",
@@ -331,13 +331,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/04/m054-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/8150",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 99
+      "mdmsReviewCount": 100
     },
     {
       "code": "M052",
       "title": "澪家",
       "releaseDate": "2025-03-07",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -346,13 +346,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2025/03/m052-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7841",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 231
+      "mdmsReviewCount": 232
     },
     {
       "code": "M051",
       "title": "霊能者は幽霊と戯ぶ",
       "releaseDate": "2025-02-07",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -382,7 +382,7 @@
       "code": "M048",
       "title": "ケイヴァー 洞窟の煌めき",
       "releaseDate": "2024-12-13",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -397,7 +397,7 @@
       "code": "M049",
       "title": "〈三月うさぎ〉の鬼探し",
       "releaseDate": "2024-12-05",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -406,13 +406,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/12/m049-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/7535",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 266
+      "mdmsReviewCount": 268
     },
     {
       "code": "M046",
       "title": "高速深夜便の殺人者",
       "releaseDate": "2024-10-04",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -421,13 +421,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/10/m046-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/6923",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 108
+      "mdmsReviewCount": 110
     },
     {
       "code": "M045",
       "title": "アルバトロスの黄金の雨",
       "releaseDate": "2024-09-27",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -436,13 +436,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/09/m045-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/5230",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 289
+      "mdmsReviewCount": 296
     },
     {
       "code": "M043",
       "title": "マーダーミステリー・オブ・ザ・デッド０",
       "releaseDate": "2024-09-20",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 7,
       "maxPlayers": 8,
       "playersLabel": "7〜8人",
@@ -451,13 +451,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/09/m043-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/5175",
       "mdmsScore": 4.1,
-      "mdmsReviewCount": 295
+      "mdmsReviewCount": 301
     },
     {
       "code": "M041",
       "title": "黒白海路",
       "releaseDate": "2024-05-31",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 2,
       "maxPlayers": 2,
       "playersLabel": "2人",
@@ -466,13 +466,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/05/m041-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/4650",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 128
+      "mdmsReviewCount": 129
     },
     {
       "code": "M040",
       "title": "因習村の極光",
       "releaseDate": "2024-05-11",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -481,7 +481,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/05/m040-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/4002",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 287
+      "mdmsReviewCount": 291
     },
     {
       "code": "M039",
@@ -496,13 +496,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/04/m039-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/3315",
       "mdmsScore": 4,
-      "mdmsReviewCount": 281
+      "mdmsReviewCount": 282
     },
     {
       "code": "M038",
       "title": "札幌異世界ツアー",
       "releaseDate": "2024-04-12",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -511,13 +511,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/04/m038-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/4726",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 71
+      "mdmsReviewCount": 73
     },
     {
       "code": "M037",
       "title": "死に浸かるワイナリー",
       "releaseDate": "2024-03-23",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -526,13 +526,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2024/03/m037-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/3696",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 350
+      "mdmsReviewCount": 352
     },
     {
       "code": "M034",
       "title": "ミッシングファイター",
       "releaseDate": "2023-12-15",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -541,7 +541,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/12/m034-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/3508",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 114
+      "mdmsReviewCount": 115
     },
     {
       "code": "M032",
@@ -556,13 +556,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/08/m032-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2643",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 263
+      "mdmsReviewCount": 265
     },
     {
       "code": "M031",
       "title": "最期のソワレ",
       "releaseDate": "2023-08-04",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 5,
       "maxPlayers": 5,
       "playersLabel": "5人",
@@ -592,7 +592,7 @@
       "code": "M028",
       "title": "誰がために伝書鳩は飛ぶ",
       "releaseDate": "2023-05-19",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -601,13 +601,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/05/M028-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2330",
       "mdmsScore": 3.9,
-      "mdmsReviewCount": 305
+      "mdmsReviewCount": 307
     },
     {
       "code": "M027",
       "title": "週末の殺人鬼",
       "releaseDate": "2023-05-19",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 2,
       "maxPlayers": 2,
       "playersLabel": "2人",
@@ -616,13 +616,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/05/m027-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2329",
       "mdmsScore": 3.5,
-      "mdmsReviewCount": 123
+      "mdmsReviewCount": 124
     },
     {
       "code": "M025",
       "title": "優しい死神の席",
       "releaseDate": "2023-03-24",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -631,13 +631,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2023/04/m025-01_1200w_q50.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/2296",
       "mdmsScore": 4,
-      "mdmsReviewCount": 322
+      "mdmsReviewCount": 325
     },
     {
       "code": "M024",
       "title": "別荘殺人",
       "releaseDate": "2023-03-10",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -652,7 +652,7 @@
       "code": "M022",
       "title": "罪と罰の図書館",
       "releaseDate": "2022-10-29",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 5,
       "maxPlayers": 6,
       "playersLabel": "5〜6人",
@@ -661,13 +661,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/10/m022-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2052",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 396
+      "mdmsReviewCount": 402
     },
     {
       "code": "M023",
       "title": "京都異世界ツアー",
       "releaseDate": "2022-10-29",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -676,13 +676,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/10/m023-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/692",
       "mdmsScore": 3.6,
-      "mdmsReviewCount": 130
+      "mdmsReviewCount": 132
     },
     {
       "code": "M020",
       "title": "霧落峠",
       "releaseDate": "2022-07-15",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -691,13 +691,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/07/m020-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/2001",
       "mdmsScore": 3.2,
-      "mdmsReviewCount": 86
+      "mdmsReviewCount": 87
     },
     {
       "code": "M019",
       "title": "廃城の錬金術師",
       "releaseDate": "2022-06-30",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 6,
       "playersLabel": "6人",
@@ -706,13 +706,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/06/m019-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1869",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 230
+      "mdmsReviewCount": 232
     },
     {
       "code": "M017",
       "title": "カナリアは歌わない",
       "releaseDate": "2022-04-23",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -721,13 +721,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/04/カナリアは歌わない.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1849",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 167
+      "mdmsReviewCount": 171
     },
     {
       "code": "M018",
       "title": "最果亭の災禍",
       "releaseDate": "2022-04-23",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 8,
       "playersLabel": "6〜8人",
@@ -735,14 +735,14 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%9C%80%E6%9E%9C%E4%BA%AD%E3%81%AE%E7%81%BD%E7%A6%8D",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/04/最果亭の災禍.png",
       "mdmsUrl": "https://mdms.jp/scenarios/83",
-      "mdmsScore": 4,
-      "mdmsReviewCount": 407
+      "mdmsScore": 3.9,
+      "mdmsReviewCount": 409
     },
     {
       "code": "M016",
       "title": "想いは満天の星に",
       "releaseDate": "2022-02-18",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -751,13 +751,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2022/02/M016-01.png",
       "mdmsUrl": "https://mdms.jp/scenarios/104",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 292
+      "mdmsReviewCount": 295
     },
     {
       "code": "M015",
       "title": "ムーンストーン邸殺人事件",
       "releaseDate": "2022-02-10",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 4,
       "playersLabel": "4人",
@@ -781,13 +781,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/12/奇想、アムネジア.png",
       "mdmsUrl": "https://mdms.jp/scenarios/26",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 408
+      "mdmsReviewCount": 409
     },
     {
       "code": "M013",
       "title": "ウェンディ、大人になって",
       "releaseDate": "2021-11-22",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 5,
       "playersLabel": "4〜5人",
@@ -796,13 +796,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/11/ウェンディ大人になって.png",
       "mdmsUrl": "https://mdms.jp/scenarios/1001",
       "mdmsScore": 4.5,
-      "mdmsReviewCount": 684
+      "mdmsReviewCount": 688
     },
     {
       "code": "M010",
       "title": "紫乃淵リライト",
       "releaseDate": "2021-09-29",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 2,
       "maxPlayers": 2,
       "playersLabel": "2人",
@@ -817,7 +817,7 @@
       "code": "M011",
       "title": "時をかけるトライアングル",
       "releaseDate": "2021-09-29",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 3,
       "maxPlayers": 3,
       "playersLabel": "3人",
@@ -832,7 +832,7 @@
       "code": "M012",
       "title": "死体と温泉",
       "releaseDate": "2021-09-29",
-      "price": 2500,
+      "price": 2750,
       "minPlayers": 4,
       "maxPlayers": 5,
       "playersLabel": "4〜5人",
@@ -841,13 +841,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/09/死体と温泉.png",
       "mdmsUrl": "https://mdms.jp/scenarios/918",
       "mdmsScore": 3.4,
-      "mdmsReviewCount": 201
+      "mdmsReviewCount": 204
     },
     {
       "code": "M009",
       "title": "ホワイト・レイヴン、レッド・ダイ",
       "releaseDate": "2021-06-21",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -856,13 +856,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/06/ホワイト・レイヴン、レッド・ダイ-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/28",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 337
+      "mdmsReviewCount": 340
     },
     {
       "code": "M008",
       "title": "マーダーミステリー・オブ・ザ・デッド",
       "releaseDate": "2021-06-21",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 7,
       "maxPlayers": 8,
       "playersLabel": "7〜8人",
@@ -871,13 +871,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/06/マーダーミステリー・オブ・ザ・デッド-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/29",
       "mdmsScore": 4.2,
-      "mdmsReviewCount": 462
+      "mdmsReviewCount": 466
     },
     {
       "code": "M007",
       "title": "魔女は黄昏の鐘に消える",
       "releaseDate": "2021-01-25",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -886,7 +886,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/0RPM7boxtop_3-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/80",
       "mdmsScore": 3.5,
-      "mdmsReviewCount": 295
+      "mdmsReviewCount": 296
     },
     {
       "code": "M006",
@@ -901,7 +901,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/RPM4boxtop.png",
       "mdmsUrl": "https://mdms.jp/scenarios/79",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 402
+      "mdmsReviewCount": 409
     },
     {
       "code": "M005",
@@ -915,8 +915,8 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E6%B2%B3%E8%BE%BA%E3%81%AE%E5%A4%9C%E3%81%AE%E5%A4%A2",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/RPM6boxtop.png",
       "mdmsUrl": "https://mdms.jp/scenarios/78",
-      "mdmsScore": 3.9,
-      "mdmsReviewCount": 288
+      "mdmsScore": 3.8,
+      "mdmsReviewCount": 291
     },
     {
       "code": "M004",
@@ -931,13 +931,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/200212RPM5boxtopsample-01-scaled.jpg",
       "mdmsUrl": "https://mdms.jp/scenarios/30",
       "mdmsScore": 3.8,
-      "mdmsReviewCount": 320
+      "mdmsReviewCount": 328
     },
     {
       "code": "M003",
       "title": "人狼村の祝祭",
       "releaseDate": "2021-01-25",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 7,
       "maxPlayers": 8,
       "playersLabel": "7〜8人",
@@ -945,14 +945,14 @@
       "amazonUrl": "https://www.amazon.co.jp/s?k=%E4%BA%BA%E7%8B%BC%E6%9D%91%E3%81%AE%E7%A5%9D%E7%A5%AD",
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/RPM3_boxtop2.png",
       "mdmsUrl": "https://mdms.jp/scenarios/31",
-      "mdmsScore": 3.8,
-      "mdmsReviewCount": 356
+      "mdmsScore": 3.7,
+      "mdmsReviewCount": 360
     },
     {
       "code": "M002",
       "title": "何度だって青い月に火を灯した",
       "releaseDate": "2021-01-25",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 6,
       "maxPlayers": 7,
       "playersLabel": "6〜7人",
@@ -961,13 +961,13 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/MURDER_bluemoon_top.png",
       "mdmsUrl": "https://mdms.jp/scenarios/70",
       "mdmsScore": 4.3,
-      "mdmsReviewCount": 751
+      "mdmsReviewCount": 759
     },
     {
       "code": "M001",
       "title": "九頭竜館の殺人",
       "releaseDate": "2021-01-25",
-      "price": 3600,
+      "price": 4000,
       "minPlayers": 7,
       "maxPlayers": 9,
       "playersLabel": "7〜9人",
@@ -976,7 +976,7 @@
       "imageUrl": "https://sne-ec.com/wp-content/uploads/2021/01/MURDER_cthulhu_top.png",
       "mdmsUrl": "https://mdms.jp/scenarios/77",
       "mdmsScore": 3.7,
-      "mdmsReviewCount": 411
+      "mdmsReviewCount": 412
     }
   ]
 }
